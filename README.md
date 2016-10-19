@@ -8,7 +8,9 @@ In this exercise, we want to measure the effectiveness on different types of ema
 
 ## Why use logistic regression over linear regression?
 Consider the linear probability model
+
     Y = ***a*** + ***B***X + e
+    
 where
 * Y is the dependent variable (1 if the event happens, 0 if the event doesn't happen)
 * ***a*** is the coefficient of the constant term
