@@ -29,6 +29,7 @@ The logistic regression model will solve these problems.
 
     ln[p/(1-p)] = a + BX + e 
 or
+    
     [p/(1-p)] = exp(a + BX + e)
 
 where
