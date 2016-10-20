@@ -23,7 +23,7 @@ Using a linear probability model will probability give you the correct answer in
 * The error term is not normally distributed since the dependent variable only takes on two values, 0 or 1.
 * The predicted probabilities can be greater than 1 or less than 0, which can lead to problems if the predicted values are used in subsequent analysis. 
 
-*** Logistic Regression ***
+### Logistic Regression
 
 The logistic regression model will solve these problems.
 
@@ -41,6 +41,9 @@ where
 
 A logistic regression is simply a non-linear transformation of a linear regression, which can help you more accurately predict the behavior and contributions of your variables.
 
+## What's included
+
+This repo includes a python script, data in csv format, and a step-by-step guide with explanations about the impelmentation and underlying math. The guide is offered as an HTML or iPython notebook. 
 
 
 

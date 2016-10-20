@@ -8,7 +8,7 @@ import numpy as np
 
 '''
 # load the data into a DataFrame
-df =pd.read_csv('emails.csv')
+df = pd.read_csv('/data/emails.csv')
 
 # ensure that the dataset loaded successfully
 print df.head()
@@ -19,13 +19,13 @@ del df['user_id']
 # print out some descriptive statistics to get a sense of the data
 print df.describe()
 
-# since we're using statsmodels, we need to manually add the intercept
-df['intercept'] = 1.0
-
 
 '''Performing the regression
 
 '''
+# since we're using statsmodels, we need to manually add the intercept
+df['intercept'] = 1.0
+
 # identify the independent variables
 ind_vars = df.columns[1:]
 
